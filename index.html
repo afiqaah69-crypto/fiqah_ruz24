@@ -1,57 +1,121 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <title>Rutinitasku Sehari-hari</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kegiatan Sehari-hari Afiqah</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f0f8ff;
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(270deg, #ffdde1, #ee9ca7, #a1c4fd, #c2e9fb);
+      background-size: 800% 800%;
+      animation: gradientBG 20s ease infinite;
       color: #333;
-      line-height: 1.6;
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      line-height: 1.8;
     }
-    h1 {
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    header {
+      background: rgba(255, 64, 129, 0.9);
+      color: white;
+      padding: 15px 0;
       text-align: center;
-      color: #4CAF50;
-      margin-top: 30px;
+      font-size: 1.8em;
+      font-weight: bold;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.2);
     }
-    p {
+
+    marquee {
+      background: rgba(0, 188, 212, 0.9);
+      color: white;
+      padding: 10px;
+      font-size: 1.1em;
+      font-weight: 500;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 10px;
+    }
+
+    section {
+      background: rgba(255, 255, 255, 0.9);
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    section:hover {
+      transform: scale(1.02);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+    }
+
+    section h2 {
+      text-align: center;
+      color: #ff4081;
       margin-bottom: 15px;
     }
-    .emoji {
-      font-size: 1.3em;
-    }
-    /* Style marquee text */
-    marquee {
-      font-size: 1.4em;
-      color: #d6336c;
-      font-weight: bold;
-      margin-bottom: 25px;
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+      background: rgba(255, 64, 129, 0.9);
+      color: white;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
 
-  <marquee behavior="scroll" direction="left" scrollamount="8" onmouseover="this.stop()" onmouseout="this.start()">
-    🚀 Rutinitas Keseharian Zahara Novianti 🚀
+  <header>🌟 Kegiatan Sehari-hari ✨</header>
+
+  <marquee behavior="scroll" direction="left" scrollamount="6">
+    Halo 👋 nama saya <strong>Afiqah Fairuz Khairina</strong> 💥 | Selamat datang di cerita keseharianku 🌸
   </marquee>
 
-  <h1>🌞 Rutinitas Harianku 🌞</h1>
+  <div class="container">
+    <section>
+      <h2>🌅 Pagi Hari</h2>
+      <p>Pagi selalu menjadi awal yang penuh semangat untukku 🌞. Aku biasanya bangun sekitar pukul 05.00, lalu segera membersihkan diri dan sholat Subuh 🙏. Setelah itu, aku merapikan tempat tidur 🛏️ dan membantu sedikit pekerjaan rumah, seperti menyapu atau menyiapkan air minum 💧.</p>
+      <p>Sekitar pukul 06.00, aku bersiap-siap untuk sekolah 👔. Aku mengenakan seragam rapi, menyisir rambut, lalu sarapan bersama keluarga 🍞🥛. Sarapan sederhana seperti roti, nasi goreng, atau telur dadar sering jadi menu favorit 🍳. Momen ini membuat pagi lebih hangat karena kami sempat bercakap ringan sebelum masing-masing beraktivitas 👨‍👩‍👧.</p>
+      <p>Setelah semua siap, aku berangkat ke sekolah 🚶‍♀️ dengan semangat. Di jalan, aku menikmati suasana pagi yang sejuk 🌿 dan sinar matahari yang perlahan muncul ✨.</p>
+    </section>
 
-  <p>Setiap hari aku bangun pukul lima pagi ⏰, dibangunkan oleh suara alarm yang cukup nyaring 🔊. Setelah membersihkan diri dan sholat subuh 🧼🕌, aku langsung membantu ibu menyiapkan sarapan 👩‍🍳. Biasanya hanya roti panggang 🍞 dan segelas susu 🥛, tapi cukup membuatku semangat memulai hari 💪.</p>
+    <section>
+      <h2>🌞 Siang Hari</h2>
+      <p>Siang hariku banyak dihabiskan di sekolah 📚. Aku mengikuti berbagai mata pelajaran, mendengarkan penjelasan guru dengan penuh perhatian 👩‍🏫, dan berusaha aktif bertanya bila ada yang belum aku pahami ❓.</p>
+      <p>Saat jam istirahat, aku dan teman-teman biasanya berkumpul di kantin sekolah 🍱🥤. Kami makan bersama sambil bercanda dan tertawa 😂. Kadang, aku juga suka membuka bekal yang dibawa dari rumah 🍎. Setelah itu, aku kembali ke kelas dan melanjutkan pelajaran sampai siang.</p>
+      <p>Sekitar pukul 15.45, bel pulang berbunyi 🔔. Aku berkemas, berpamitan dengan teman-teman, dan pulang ke rumah dengan hati senang meski sedikit lelah 🏡.</p>
+    </section>
 
-  <p>Sekitar pukul 6.30, aku berangkat ke sekolah bersama teman-teman 🚶‍♂️🚶‍♀️. Kegiatan di sekolah dimulai pukul 7 pagi 📚. Pelajaran demi pelajaran berlangsung dengan serius 😌, tapi sesekali diselingi tawa ketika guru menceritakan hal lucu 😂.</p>
+    <section>
+      <h2>🌇 Sore Hari</h2>
+      <p>Sesampainya di rumah, aku biasanya beristirahat sebentar 🛋️ untuk melepas lelah. Setelah itu, aku mandi 🚿 agar badan segar kembali. Sore adalah waktuku untuk lebih santai. Kadang aku langsung mengerjakan tugas sekolah 📝, kadang juga mengisi waktu dengan membaca buku, menulis, atau mendengarkan musik 🎧.</p>
+      <p>Jika tidak banyak tugas, aku suka menikmati udara sore di luar rumah 🌿. Melihat langit sore dengan warna jingga keemasan 🌅 selalu membuat hati terasa tenang. Terkadang aku juga membantu orang tua di rumah, misalnya menyiapkan makan malam atau pekerjaan kecil lainnya 🍳.</p>
+    </section>
 
-  <p>Istirahat adalah waktu yang kutunggu-tunggu ⏳, karena aku bisa bercanda dan makan bersama teman-teman 🍱👫. Setelah sekolah selesai sekitar pukul 2 siang 🕑, aku pulang dan langsung beristirahat sejenak 😴.</p>
+    <section>
+      <h2>🌙 Malam Hari</h2>
+      <p>Malam hari adalah waktu yang paling hangat bersama keluarga 💖. Kami biasanya makan malam bersama 🍲🥗 sambil bercerita tentang pengalaman masing-masing sepanjang hari. Setelah makan malam, aku duduk di meja belajar untuk menyelesaikan PR 📒✏️ atau mempersiapkan pelajaran untuk esok hari 📖.</p>
+      <p>Sekitar pukul 20.30 atau 21.00, aku beristirahat sejenak dengan menonton televisi 📺 atau berbincang dengan keluarga 👨‍👩‍👧. Setelah itu, aku kembali ke kamar untuk merapikan tas dan buku-buku agar siap dipakai besok 🎒.</p>
+      <p>Sebelum tidur, aku berdoa kepada Allah agar selalu diberi kesehatan dan kemudahan dalam belajar 🙏. Setelah semua selesai, aku tidur dengan nyenyak 😴 ditemani mimpi indah ✨.</p>
+    </section>
+  </div>
 
-  <p>Sore hariku biasanya diisi dengan mengerjakan PR ✍️ dan belajar untuk ulangan 📖. Jika tidak terlalu banyak tugas, aku menyempatkan diri bermain sepeda 🚴‍♂️ atau menonton film sebentar 🎬.</p>
-
-  <p>Setelah magrib 🌆, aku kembali belajar sebentar 📚 sebelum tidur 😴. Hari-hariku memang sederhana 🌼, tapi aku menikmatinya 😊. Rutinitas ini membuatku belajar tentang disiplin dan tanggung jawab 🧠💼.</p>
+  <footer>
+    ✨ Dibuat dengan penuh semangat oleh Afiqah Fairuz Khairina 💕
+  </footer>
 
 </body>
 </html>
