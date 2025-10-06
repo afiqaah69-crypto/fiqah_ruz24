@@ -1,127 +1,121 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kegiatan Khansa Atika Zahra - Biru Soft (Tanpa Tanda Baca)</title>
-    <style>
-        body {
-            /* Latar belakang utama: Gradien Biru Langit Lembut */
-            background: linear-gradient(135deg, #e0f7fa 0%, #b3e5fc 100%);
-            color: #ffffff; /* Warna teks utama putih */
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .container {
-            width: 90%;
-            max-width: 800px;
-            margin: 40px auto;
-            /* Latar belakang konten: Biru Tua Soft (Agar kontras dengan teks putih) */
-            background-color: rgba(30, 144, 255, 0.85); 
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-        }
-        h1 {
-            text-align: center;
-            color: #ffffff; 
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
-            margin-bottom: 30px;
-            font-size: 2em;
-            /* Garis bawah: Biru muda cerah */
-            border-bottom: 3px solid #81d4fa; 
-            padding-bottom: 10px;
-        }
-        h2 {
-            color: #ffcc80; /* Warna judul bagian: Oranye Muda (Agar menonjol di latar biru tua) */
-            padding-bottom: 5px;
-            margin-top: 25px;
-            font-size: 1.5em;
-            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-        }
-        .section {
-            margin-bottom: 25px;
-            padding: 15px 20px;
-            /* Latar belakang bagian: Sedikit transparansi */
-            background-color: rgba(255, 255, 255, 0.1); 
-            border-radius: 10px;
-            /* Garis samping: Pink muda */
-            border-left: 5px solid #ffb3b3; 
-            transition: transform 0.3s ease-in-out;
-        }
-        .section:hover {
-            transform: translateY(-5px); 
-            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
-        }
-        .marquee-text {
-            /* Latar belakang teks berjalan: Biru muda cerah */
-            background-color: #81d4fa; 
-            color: #000080; /* Warna teks: Biru navy/tua */
-            padding: 12px 0;
-            margin-bottom: 30px;
-            width: 100%;
-            font-weight: bold;
-            font-size: 1.1em;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-            text-align: center;
-        }
-        p {
-            /* Menyesuaikan margin bawah paragraf agar lebih rapat */
-            margin-bottom: 5px; 
-            margin-top: 5px; 
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kegiatan Sehari-hari Afiqah</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(270deg, #ffdde1, #ee9ca7, #a1c4fd, #c2e9fb);
+      background-size: 800% 800%;
+      animation: gradientBG 20s ease infinite;
+      color: #333;
+      line-height: 1.8;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    header {
+      background: rgba(255, 64, 129, 0.9);
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+      font-size: 1.8em;
+      font-weight: bold;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    }
+
+    marquee {
+      background: rgba(0, 188, 212, 0.9);
+      color: white;
+      padding: 10px;
+      font-size: 1.1em;
+      font-weight: 500;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 10px;
+    }
+
+    section {
+      background: rgba(255, 255, 255, 0.9);
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    section:hover {
+      transform: scale(1.02);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+    }
+
+    section h2 {
+      text-align: center;
+      color: #ff4081;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+      background: rgba(255, 64, 129, 0.9);
+      color: white;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 <body>
 
-    <div class="marquee-text">
-        <marquee direction="left" scrollamount="6">✨ Selamat datang di halaman website saya terimakasih telah berkunjung ✨</marquee>
-    </div>
+  <header>🌟 Kegiatan Sehari-hari ✨</header>
 
-    <div class="container">
-        <h1>Kegiatan Sehari-hari Khansa Atika Zahra </h1>
+  <marquee behavior="scroll" direction="left" scrollamount="6">
+    Halo 👋 nama saya <strong>Afiqah Fairuz Khairina</strong> 💥 | Selamat datang di cerita keseharianku 🌸
+  </marquee>
 
-        <div class="section">
-            <h2>🌅 Pagi hari</h2>
-            <p>Halo, nama saya Khansa Atika Zahra Saya biasanya bangun tidur sekitar pukul 0535 pagi ⏰ Setelah itu, saya sholat Subuh, lalu mempersiapkan buku-buku yang akan di bawa ke sekolah 📘</p>
-            <p>Sekitar pukul 0645 saya sudah berangkat ke sekolah 🛵 🏫</p>
-        </div>
-           
-        <div class="section">
-            <h2>☀️ Siang Hari</h2>
-            <p>Di sekolah, saya belajar berbagai mata pelajaran 📖✏️, bertemu teman-teman 👭, dan mengikuti kegiatan kelas</p>
-            <p>Biasanya jam istirahat saya habiskan dengan berbincang bersama teman sambil menikmati jajanan 🍩🥤</p>
-        </div>
+  <div class="container">
+    <section>
+      <h2>🌅 Pagi Hari</h2>
+      <p>Pagi selalu menjadi awal yang penuh semangat untukku 🌞. Aku biasanya bangun sekitar pukul 05.00, lalu segera membersihkan diri dan sholat Subuh 🙏. Setelah itu, aku merapikan tempat tidur 🛏️ dan membantu sedikit pekerjaan rumah, seperti menyapu atau menyiapkan air minum 💧.</p>
+      <p>Sekitar pukul 06.00, aku bersiap-siap untuk sekolah 👔. Aku mengenakan seragam rapi, menyisir rambut, lalu sarapan bersama keluarga 🍞🥛. Sarapan sederhana seperti roti, nasi goreng, atau telur dadar sering jadi menu favorit 🍳. Momen ini membuat pagi lebih hangat karena kami sempat bercakap ringan sebelum masing-masing beraktivitas 👨‍👩‍👧.</p>
+      <p>Setelah semua siap, aku berangkat ke sekolah 🚶‍♀️ dengan semangat. Di jalan, aku menikmati suasana pagi yang sejuk 🌿 dan sinar matahari yang perlahan muncul ✨.</p>
+    </section>
 
-        <div class="section">
-            <h2>🌇 Sore Hari</h2>
-            <p>Pulang sekolah, saya makan sore 🍽️, lalu beristirahat sebentar dan bermain hp 📱</p>
-            <p>Saya juga membantu orang tua di rumah 👪, salah satunya seperti menyapu 🧹</p>
-            <p>Sore hari biasanya saya menjaga adek dan bermain bersama ✨</p>
-        </div>
+    <section>
+      <h2>🌞 Siang Hari</h2>
+      <p>Siang hariku banyak dihabiskan di sekolah 📚. Aku mengikuti berbagai mata pelajaran, mendengarkan penjelasan guru dengan penuh perhatian 👩‍🏫, dan berusaha aktif bertanya bila ada yang belum aku pahami ❓.</p>
+      <p>Saat jam istirahat, aku dan teman-teman biasanya berkumpul di kantin sekolah 🍱🥤. Kami makan bersama sambil bercanda dan tertawa 😂. Kadang, aku juga suka membuka bekal yang dibawa dari rumah 🍎. Setelah itu, aku kembali ke kelas dan melanjutkan pelajaran sampai siang.</p>
+      <p>Sekitar pukul 15.45, bel pulang berbunyi 🔔. Aku berkemas, berpamitan dengan teman-teman, dan pulang ke rumah dengan hati senang meski sedikit lelah 🏡.</p>
+    </section>
 
-        <div class="section">
-            <h2>🌙 Malam Hari</h2>
-            <p>Pada malam hari 🌙, setelah makan malam 🍽️ dan sholat Isya, saya mengerjakan PR atau tugas sekolah 📑</p>
-            <p>Setelah itu saya bersantai bersama keluarga atau bermain hp sebentar 📱 Sekitar pukul 2200 saya tidur 🛌 agar bisa bangun pagi lagi 🌅</p>
-        </div>
-        
-        <hr style="border-color: rgba(255, 255, 255, 0.3); margin: 30px 0;">
+    <section>
+      <h2>🌇 Sore Hari</h2>
+      <p>Sesampainya di rumah, aku biasanya beristirahat sebentar 🛋️ untuk melepas lelah. Setelah itu, aku mandi 🚿 agar badan segar kembali. Sore adalah waktuku untuk lebih santai. Kadang aku langsung mengerjakan tugas sekolah 📝, kadang juga mengisi waktu dengan membaca buku, menulis, atau mendengarkan musik 🎧.</p>
+      <p>Jika tidak banyak tugas, aku suka menikmati udara sore di luar rumah 🌿. Melihat langit sore dengan warna jingga keemasan 🌅 selalu membuat hati terasa tenang. Terkadang aku juga membantu orang tua di rumah, misalnya menyiapkan makan malam atau pekerjaan kecil lainnya 🍳.</p>
+    </section>
 
-        <div class="section">
-            <h2>🎨🎶 Hobi & Waktu Luang</h2>
-            <p>Selain kegiatan rutin, saya memiliki beberapa hobi yaitu membaca buku cerita 📖, mendengarkan musik 🎧, dan menulis 🖊️</p>
-            <p>Saat waktu luang, mendengarkan lagu favorit itu rutinitas saya setiap hari untuk menenangkan pikiran 💭</p>
-            <p>Menulis juga menjadi hobi yang menyenangkan karena bisa menyalurkan ide dan perasaan saya dalam bentuk kata-kata ✨</p>
-        </div>
+    <section>
+      <h2>🌙 Malam Hari</h2>
+      <p>Malam hari adalah waktu yang paling hangat bersama keluarga 💖. Kami biasanya makan malam bersama 🍲🥗 sambil bercerita tentang pengalaman masing-masing sepanjang hari. Setelah makan malam, aku duduk di meja belajar untuk menyelesaikan PR 📒✏️ atau mempersiapkan pelajaran untuk esok hari 📖.</p>
+      <p>Sekitar pukul 20.30 atau 21.00, aku beristirahat sejenak dengan menonton televisi 📺 atau berbincang dengan keluarga 👨‍👩‍👧. Setelah itu, aku kembali ke kamar untuk merapikan tas dan buku-buku agar siap dipakai besok 🎒.</p>
+      <p>Sebelum tidur, aku berdoa kepada Allah agar selalu diberi kesehatan dan kemudahan dalam belajar 🙏. Setelah semua selesai, aku tidur dengan nyenyak 😴 ditemani mimpi indah ✨.</p>
+    </section>
+  </div>
 
-    </div>
+  <footer>
+    ✨ Dibuat dengan penuh semangat oleh Afiqah Fairuz Khairina 💕
+  </footer>
 
 </body>
 </html>
